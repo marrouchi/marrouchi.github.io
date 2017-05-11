@@ -1,317 +1,338 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Mohamed Marrouchi</title>
-	
-    <style type="text/css">
-        @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        body {
-            font: 16px Helvetica, Sans-Serif;
-            line-height: 24px;
-            background: url(images/noise.jpg);
-        }
-        .clear {
-            clear: both;
-        }
-        #page-wrap {
-            width: 800px;
-            margin: 40px auto 60px;
-        }
-        #pic {
-            float: right;
-            margin: -30px 0 0 0;
-        }
-        h1 {
-            margin: 0 0 16px 0;
-            padding: 0 0 16px 0;
-            font-size: 42px;
-            font-weight: bold;
-            letter-spacing: -2px;
-            border-bottom: 1px solid #999;
-        }
-        h2 {
-            font-size: 20px;
-            margin: 0 0 6px 0;
-            position: relative;
-        }
-        h2 span {
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            font-style: italic;
-            font-family: Georgia, Serif;
-            font-size: 16px;
-            color: #999;
-            font-weight: normal;
-        }
-        p {
-            margin: 0 0 16px 0;
-        }
-        a {
-            color: #999;
-            text-decoration: none;
-            border-bottom: 1px dotted #999;
-        }
-        a:hover {
-            border-bottom-style: solid;
-            color: black;
-        }
-        ul {
-            margin: 0 0 32px 17px;
-        }
-        #objective {
-            width: 500px;
-            float: left;
-        }
-        #objective p {
-            font-family: Georgia, Serif;
-            font-style: italic;
-            color: #666;
-        }
-        dt {
-            font-style: italic;
-            font-weight: bold;
-            font-size: 18px;
-            text-align: right;
-            padding: 0 26px 0 0;
-            width: 150px;
-            float: left;
-            height: 100px;
-            border-right: 1px solid #999;
-        }
-        dd {
-            width: 600px;
-            float: right;
-        }
-        dd.clear {
-            float: none;
-            margin: 0;
-            height: 15px;
-        }
-        ul {
-            padding: 0;
-            list-style: none;
-        }
-    	
-        .footer-social-icons {
-            width: 350px;
-            display: block;
-        }
-        .footer-social-icons ul {
-            margin-left: 0;
-        }
-        .footer-social-icons a {
-	    text-decoration: none;
-	    border: 0;
-	}
-	.footer-social-icons p > a:hover{
-	    text-decoration:  underline;
-	}
-        .social-icon {
-            color: #fff;
-        }
-        ul.social-icons {
-            margin-top: 10px;
-        }
-        .social-icons li {
-            vertical-align: top;
-            display: inline;
-            height: 100px;
-        }
-        .social-icons a {
-            color: #fff;
-            text-decoration: none;
-        }
-        .fa-facebook {
-            padding: 10px 14px;
-            -o-transition: .5s;
-            -ms-transition: .5s;
-            -moz-transition: .5s;
-            -webkit-transition: .5s;
-            transition: .5s;
-            background-color: #322f30;
-        }
-        .fa-facebook:hover {
-            background-color: #3d5b99;
-        }
-        .fa-twitter {
-            padding: 10px 12px;
-            -o-transition: .5s;
-            -ms-transition: .5s;
-            -moz-transition: .5s;
-            -webkit-transition: .5s;
-            transition: .5s;
-            background-color: #322f30;
-        }
-        .fa-twitter:hover {
-            background-color: #00aced;
-        }
-        .fa-rss {
-            padding: 10px 14px;
-            -o-transition: .5s;
-            -ms-transition: .5s;
-            -moz-transition: .5s;
-            -webkit-transition: .5s;
-            transition: .5s;
-            background-color: #322f30;
-        }
-        .fa-rss:hover {
-            background-color: #eb8231;
-        }
-        .fa-github {
-            padding: 10px 14px;
-            -o-transition: .5s;
-            -ms-transition: .5s;
-            -moz-transition: .5s;
-            -webkit-transition: .5s;
-            transition: .5s;
-            background-color: #322f30;
-        }
-        .fa-github:hover {
-            background-color: #909090;
-        }
-        .fa-linkedin {
-            padding: 10px 14px;
-            -o-transition: .5s;
-            -ms-transition: .5s;
-            -moz-transition: .5s;
-            -webkit-transition: .5s;
-            transition: .5s;
-            background-color: #322f30;
-        }
-        .fa-linkedin:hover {
-            background-color: #0073a4;
-        }
-        .fa-google-plus {
-            padding: 10px 9px;
-            -o-transition: .5s;
-            -ms-transition: .5s;
-            -moz-transition: .5s;
-            -webkit-transition: .5s;
-            transition: .5s;
-            background-color: #322f30;
-        }
-        .fa-google-plus:hover {
-            background-color: #e25714;
-        }
-    </style>
-</head>
-
-<body>
-    <div id="page-wrap">
-        <img src="images/marrouchi.png" alt="Photo" id="pic" />
-        <div id="contact-info" class="vcard">
-            <!-- Microformats! -->
-            <h1 class="fn">Mohamed Marrouchi</h1>
-            <h3>Software Engineer, Web Expert & FOSS Advocate</h3>
-            <div class="footer-social-icons">
-                <ul class="social-icons">
-                    <li>
-                        <a href="https://www.facebook.com/medmarrouchi" class="social-icon"> <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/MedMarrouchi" class="social-icon"> <i class="fa fa-twitter"></i>
-                        </a>
-                    </li>
-                    <!--<li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>-->
-		    <li>
-		        <a href="https://github.com/marrouchi" class="social-icon"> <i class="fa fa-github"></i></a>
-		    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/mohamed-marrouchi-294a68a8/" class="social-icon"> <i class="fa fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <!--<li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>-->
-                </ul>
-            </div>
-            <p>
-                <!-- Cell: <span class="tel">555-666-7777</span><br /> -->
-                Email: <a class="email" href="mailto:marrouchi.mohamed@gmail.com">marrouchi.mohamed@gmail.com</a>
-            </p>
-        </div>
-        <div id="objective">
-            <p>
-                Full stack software engineer with special expertise in web development, e-commerce, APIs and web services. Comfortable implementing great user experiences, managing server side scalability and concurrency, designing database schemas and batch processing jobs, and deploying and admining servers. Experienced in building sophisticated distributed systems using REST web APIs. Product focused and deeply passionate about solving interesting problems.
-            </p>
-            <p>
-                As a FOSS advocate, i actively contribute to open source projects (see my GitHub profile) because it is a way to develop great software that benefits both the contributor and the community.
-            </p>
-        </div>
-        <div class="clear"></div>
-        <dl>
-            <dd class="clear"></dd>
-            <dt>Education</dt>
-            <dd>
-                <h2>Diploma, Software Engineering</h2>
-		<h4>High Institute Of Computer Sciences, Ariana Tunisia</h4>
-                <p><strong>2008 - 2011</strong>
-                    <br /> Software Development
-                </p>
-            </dd>
-            <dd>
-                <h2>Diploma, Information Systems & Communication Technologies</h2>
-		<h4>High Institute Of Computer Sciences, Ariana Tunisia</h4>
-                <p><strong>2005 - 2008</strong>
-                </p>
-            </dd>
-            <dd>
-                <h2>Bachelors, Technologies Science</h2>
-		<h4>Kelibia High School, Tunisia</h4>
-                <p><strong>2000 - 2005</strong>
-                </p>
-            </dd>
-            <dd class="clear"></dd>
-            <!--
-					<dt>Skills</dt>
-					<dd>
-					    <h2>Office skills</h2>
-					    <p>Office and records management, database administration, event organization, customer support, travel coordination</p>
-					    
-					    <h2>Computer skills</h2>
-					    <p>Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows</p>
-					</dd>
-					
-					<dd class="clear"></dd>
-					
-					<dt>Experience</dt>
-					<dd>
-					    <h2>Doomsday Cult <span>Leader/Overlord - Baton Rogue, LA - 1926-2010</span></h2>
-					    <ul>
-					        <li>Inspired and won highest peasant death competition among servants</li>
-					        <li>Helped coordinate managers to grow cult following</li>
-					        <li>Provided untimely deaths to all who opposed</li>
-					    </ul>
-					    
-					    <h2>The Watering Hole <span>Bartender/Server - Milwaukee, WI - 2009</span></h2>
-					    <ul>
-					        <li>Worked on grass-roots promotional campaigns</li>
-					        <li>Reduced theft and property damage percentages</li>
-					        <li>Janitorial work, Laundry</li>
-					    </ul> 
-					</dd>
-					
-					<dd class="clear"></dd>
-					
-					<dt>Hobbies</dt>
-					<dd>World Domination, Deep Sea Diving, Murder Most Foul</dd>
-					
-					<dd class="clear"></dd>
-					
-					<dt>References</dt>
-					<dd>Available on request</dd>
-					
-					<dd class="clear"></dd> -->
-        </dl>
-        <div class="clear"></div>
-    </div>
-</body>
-
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Mohamed Marrouchi</title>
+		<style type="text/css">
+			@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+			* {
+			margin: 0;
+			padding: 0;
+			}
+			body {
+			font: 16px Helvetica, Sans-Serif;
+			line-height: 24px;
+			background: url(images/noise.jpg);
+			}
+			.clear {
+			clear: both;
+			}
+			#page-wrap {
+			width: 800px;
+			margin: 40px auto 60px;
+			}
+			#pic {
+			float: right;
+			margin: -30px 0 0 0;
+			}
+			h1 {
+			margin: 0 0 16px 0;
+			padding: 0 0 16px 0;
+			font-size: 42px;
+			font-weight: bold;
+			letter-spacing: -2px;
+			border-bottom: 1px solid #999;
+			}
+			h2 {
+			font-size: 20px;
+			margin: 0 0 6px 0;
+			position: relative;
+			}
+			h2 span {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			font-style: italic;
+			font-family: Georgia, Serif;
+			font-size: 16px;
+			color: #999;
+			font-weight: normal;
+			}
+			p {
+			margin: 0 0 16px 0;
+			}
+			a {
+			color: #999;
+			text-decoration: none;
+			border-bottom: 1px dotted #999;
+			}
+			a:hover {
+			border-bottom-style: solid;
+			color: black;
+			}
+			ul {
+			margin: 0 0 32px 17px;
+			}
+			#objective {
+			width: 500px;
+			float: left;
+			}
+			#objective p {
+			font-family: Georgia, Serif;
+			font-style: italic;
+			color: #666;
+			}
+			dt {
+			font-style: italic;
+			font-weight: bold;
+			font-size: 18px;
+			text-align: right;
+			padding: 0 26px 0 0;
+			width: 150px;
+			float: left;
+			height: 100px;
+			border-right: 1px solid #999;
+			}
+			dd {
+			width: 600px;
+			float: right;
+			}
+			dd.clear {
+			float: none;
+			margin: 0;
+			height: 15px;
+			}
+			ul {
+			padding: 0;
+			list-style: none;
+			}
+			.footer-social-icons {
+			width: 350px;
+			display: block;
+			}
+			.footer-social-icons ul {
+			margin-left: 0;
+			}
+			.footer-social-icons a {
+			text-decoration: none;
+			border: 0;
+			}
+			.footer-social-icons p > a:hover{
+			text-decoration:  underline;
+			}
+			.social-icon {
+			color: #fff;
+			}
+			ul.social-icons {
+			margin-top: 10px;
+			}
+			.social-icons li {
+			vertical-align: top;
+			display: inline;
+			height: 100px;
+			}
+			.social-icons a {
+			color: #fff;
+			text-decoration: none;
+			}
+			.fa-facebook {
+			padding: 10px 14px;
+			-o-transition: .5s;
+			-ms-transition: .5s;
+			-moz-transition: .5s;
+			-webkit-transition: .5s;
+			transition: .5s;
+			background-color: #322f30;
+			}
+			.fa-facebook:hover {
+			background-color: #3d5b99;
+			}
+			.fa-twitter {
+			padding: 10px 12px;
+			-o-transition: .5s;
+			-ms-transition: .5s;
+			-moz-transition: .5s;
+			-webkit-transition: .5s;
+			transition: .5s;
+			background-color: #322f30;
+			}
+			.fa-twitter:hover {
+			background-color: #00aced;
+			}
+			.fa-rss {
+			padding: 10px 14px;
+			-o-transition: .5s;
+			-ms-transition: .5s;
+			-moz-transition: .5s;
+			-webkit-transition: .5s;
+			transition: .5s;
+			background-color: #322f30;
+			}
+			.fa-rss:hover {
+			background-color: #eb8231;
+			}
+			.fa-github {
+			padding: 10px 14px;
+			-o-transition: .5s;
+			-ms-transition: .5s;
+			-moz-transition: .5s;
+			-webkit-transition: .5s;
+			transition: .5s;
+			background-color: #322f30;
+			}
+			.fa-github:hover {
+			background-color: #909090;
+			}
+			.fa-linkedin {
+			padding: 10px 14px;
+			-o-transition: .5s;
+			-ms-transition: .5s;
+			-moz-transition: .5s;
+			-webkit-transition: .5s;
+			transition: .5s;
+			background-color: #322f30;
+			}
+			.fa-linkedin:hover {
+			background-color: #0073a4;
+			}
+			.fa-google-plus {
+			padding: 10px 9px;
+			-o-transition: .5s;
+			-ms-transition: .5s;
+			-moz-transition: .5s;
+			-webkit-transition: .5s;
+			transition: .5s;
+			background-color: #322f30;
+			}
+			.fa-google-plus:hover {
+			background-color: #e25714;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="page-wrap">
+			<img src="images/marrouchi.png" alt="Photo" id="pic" />
+			<div id="contact-info" class="vcard">
+				<!-- Microformats! -->
+				<h1 class="fn">Mohamed Marrouchi</h1>
+				<h3>Software Engineer, Web Expert & FOSS Advocate</h3>
+				<div class="footer-social-icons">
+					<ul class="social-icons">
+						<li>
+							<a href="https://www.facebook.com/medmarrouchi" class="social-icon"> <i class="fa fa-facebook"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/MedMarrouchi" class="social-icon"> <i class="fa fa-twitter"></i>
+							</a>
+						</li>
+						<!--<li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>-->
+						<li>
+							<a href="https://github.com/marrouchi" class="social-icon"> <i class="fa fa-github"></i></a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/mohamed-marrouchi-294a68a8/" class="social-icon"> <i class="fa fa-linkedin"></i>
+							</a>
+						</li>
+						<!--<li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>-->
+					</ul>
+				</div>
+				<p>
+					<!-- Cell: <span class="tel">555-666-7777</span><br /> -->
+					Email: <a class="email" href="mailto:marrouchi.mohamed@gmail.com">marrouchi.mohamed@gmail.com</a>
+				</p>
+			</div>
+			<div id="objective">
+				<p>
+					Full stack software engineer with special expertise in web development, e-commerce, APIs and web services. Comfortable implementing great user experiences, managing server side scalability and concurrency, designing database schemas and batch processing jobs, and deploying and admining servers. Experienced in building sophisticated distributed systems using REST web APIs. Product focused and deeply passionate about solving interesting problems.
+				</p>
+				<p>
+					As a FOSS advocate, i actively contribute to open source projects (see my GitHub profile) because it is a way to develop great software that benefits both the contributor and the community.
+				</p>
+			</div>
+			<div class="clear"></div>
+			<dl>
+				<dd class="clear"></dd>
+				<dt>Skills</dt>
+				<dd>
+					<h2>Web Development</h2>
+					<p>PHP, Javascript/Nodejs, MySql, MongoDB, HTML & CSS</p>
+					<h2>CMS & E-Commerce</h2>
+					<p>Drupal, Joomla & Prestashop</p>
+					<h2>Webservices</h2>
+					<p>SOAP, REST, XML & JSON</p>
+					<h2>Misc</h2>
+					<p>SailsJs, VueJs, jQuery, Git/SVN, Linux</p>
+				</dd>
+				<dd class="clear"></dd>
+				<dt>Experience</dt>
+				<dd>
+					<h2>Production Manager & Technical Director <span>Aurone May 2014 - March 2017</span></h2>
+					<p>Expertly managed the entire life-cycle of website development projects:</p>
+					<ul>
+						<li>Provided expert advice to project mangers to enhance competencies in managing assigned projects and to maximize the performance level.</li>
+						<li>Directed recruitment/technical/training staff initiatives to maximize productivity in a fun working environment.</li>
+						<li>Increased employee retention by creating a positive work environment.</li>
+						<li>Initiating and managing an incentive performance plan which motivated staff and resulted in increased profits and boost customer satisfaction by an average of 80%.</li>
+						<li>Improved quality of technical delivery through development of best practice and standards guidelines.</li>
+					</ul>
+					<h2>Project Manager <span>Aurone December 2012 - May 2014</span></h2>
+					<p>I have managed many web projects with proven traffic and for various profile clients, always going above and beyond the call of duty:</p>
+					<ul>
+						<li>Estimated project budgets and resolved discrepancies.</li>
+						<li>Gathering and analyzing project requirements.</li>
+						<li>Oversaw project team members and client deliverables.</li>
+						<li>Provided exceptional clients relations support with clear communication and timely projects status updates.</li>
+						<li>Set up, participated and lead frequent client conference calls and project team meetings.</li>
+						<li>Coordinated User Acceptance Testing (UAT) and assisted in testing efforts.</li>
+						<li>Managed quality assurance and proofing with a clear understanding of time management.</li>
+						<li>Established a website building process from inception to launch.</li>
+						<li>Created a project management software that increased transparency on projects and led to an organized and efficient work.</li>
+						<li>Helped team members in addressing technical choices and issues.</li>
+						<li>Educated team members about website development best practices.</li>
+					</ul>
+					<h2>Web Developer <span>Aurone September 2010 - December 2012</span></h2>
+					<p>I was involved in building and maintaining many websites including corporate websites, e-commerce or Intranet / Extranet based upon popular open source solutions (CMS & Frameworks):</p>
+					<ul>
+						<li>Developing CMS custom modules based on the clients specific needs.</li>
+						<li>Providing technical support for website under maintenance contract.</li>
+						<li>Identifying and correcting software bugs and deficiencies.</li>
+						<li>Managing hosting environments & deployments (LAMP).</li>
+						<li>Setting up payment methods for e-commerce websites.</li>
+						<li>Participating in discussions with clients to clarify what they want.</li>
+						<li>Providing guidance to other team members on web development issues.</li>
+						<li>Worked on multiple projects simultaneously to a high standard.</li>
+						<li>Worked under pressure and to tight deadlines.</li>
+					</ul>
+				</dd>
+				<dd class="clear"></dd>
+				<dt>Other Experiences</dt>
+				<dd>
+					<h2>Project Manager & Developer <span>Aurone May 2014 - March 2017</span></h2>
+					<p>Done is a Project Managment Software that is the result of an experience of many years managing website development projects. We have overcome many challenges that helped us better organize and manage time and workload within projects. The idea was to design and develop a tool that would meet our project management needs while facilitating our work. Our goal is to make this solution available to all project teams regardless of the nature of the project. We have succeded to launch it as a SaaS early 2016. Further informations can be found at www.doneapp.com</p>
+				</dd>
+				<dd class="clear"></dd>
+				<dt>Education</dt>
+				<dd>
+					<h2>Diploma, Software Engineering</h2>
+					<h4>High Institute Of Computer Sciences, Ariana Tunisia</h4>
+					<p><strong>2008 - 2011</strong>
+						<br /> Software Development
+					</p>
+				</dd>
+				<dd>
+					<h2>Diploma, Information Systems & Communication Technologies</h2>
+					<h4>High Institute Of Computer Sciences, Ariana Tunisia</h4>
+					<p><strong>2005 - 2008</strong>
+					</p>
+				</dd>
+				<dd>
+					<h2>Bachelors, Technologies Science</h2>
+					<h4>Kelibia High School, Tunisia</h4>
+					<p><strong>2000 - 2005</strong>
+					</p>
+				</dd>
+				<dd class="clear"></dd>
+				<dd class="clear"></dd>
+				<dt>Hobbies</dt>
+				<dd>IT & Web technlogies, OpenSource & FreeSoftware, Management, Music</dd>
+				<dd class="clear"></dd>
+				<dt>References</dt>
+				<dd>Available on request</dd>
+				<dd class="clear"></dd>
+			</dl>
+			<div class="clear"></div>
+		</div>
+	</body>
 </html>
