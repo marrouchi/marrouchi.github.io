@@ -364,5 +364,110 @@
 			</dl>
 			<div class="clear"></div>
 		</div>
+<div id='crmWebToEntityForm' style='width:600px;margin:auto;'>
+   <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2553120000000120148 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
+
+	 <!-- Do not remove this code. -->
+	<input type='text' style='display:none;' name='xnQsjsdp' value='39b9c55c1c3aa3d5654acc04f16c7d5a95d9acd92060ec5d59bd2d3476b0d8ae'/>
+	<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+	<input type='text' style='display:none;' name='xmIwtLD' value='bd71ef22e9b292d434a44be0e18c69ee3051032792c02430fce48475c1afed81'/>
+	<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+
+	<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;marrouchi.com&#x2f;' /> 
+	 <!-- Do not remove this code. -->
+	<style>
+		tr , td { 
+			padding:6px;
+			border-spacing:0px;
+			border-width:0px;
+			}
+	</style>
+	<table style='width:600px;background-color:white;color:black'>
+
+	<tr><td colspan='2' style='text-align:left;color:black;font-family:Arial;font-size:14px;'><strong>Get in touch &#x21;</strong></td></tr>
+
+	<tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Company</td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='100' name='Company' /></td></tr>
+
+	<tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>First Name<span style='color:red;'>*</span></td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='40' name='First Name' /></td></tr>
+
+	<tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Last Name<span style='color:red;'>*</span></td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='80' name='Last Name' /></td></tr>
+
+	<tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Email<span style='color:red;'>*</span></td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='100' name='Email' /></td></tr>
+
+	<tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Phone</td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='30' name='Phone' /></td></tr>
+
+	<tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Message<span style='color:red;'>*</span> </td><td> <textarea name='Description' maxlength='1000' style='width:250px;'>&nbsp;</textarea></td></tr>
+
+	<tr style='display:none;' ><td style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:50%'>Lead Source</td><td style='width:250px;'>
+		<select style='width:250px;' name='Lead Source'>
+			<option value='-None-'>None</option>
+			<option value='Publicit&eacute;'>Publicit&eacute;</option>
+			<option value='Appel&#x20;entrant'>Appel entrant</option>
+			<option value='R&eacute;f&eacute;rence&#x20;d&rsquo;employ&eacute;'>R&eacute;f&eacute;rence d&rsquo;employ&eacute;</option>
+			<option value='R&eacute;f&eacute;rence&#x20;externe'>R&eacute;f&eacute;rence externe</option>
+			<option value='Boutique&#x20;en&#x20;ligne'>Boutique en ligne</option>
+			<option value='Partenaire'>Partenaire</option>
+			<option value='Relations&#x20;Publiques'>Relations Publiques</option>
+			<option value='Pseudo&#x20;de&#x20;messagerie&#x20;commerciale'>Pseudo de messagerie commerciale</option>
+			<option value='S&eacute;minaire&#x20;Partenaire'>S&eacute;minaire Partenaire</option>
+			<option value='S&eacute;minaire&#x20;interne'>S&eacute;minaire interne</option>
+			<option value='Salon'>Salon</option>
+		<option selected value='Site&#x20;Web'>Site Web</option>
+			<option value='Moteur&#x20;de&#x20;recherche'>Moteur de recherche</option>
+			<option value='Conversation'>Conversation</option>
+		</select></td></tr>
+
+	<tr><td colspan='2' style='text-align:center; padding-top:15px;'>
+		<input style='font-size:12px;color:#131307' type='submit' value='Submit' />
+		<input type='reset' style='font-size:12px;color:#131307' value='Reset' />
+	    </td>
+	</tr>
+   </table>
+	<script>
+ 	  // <!--
+  	  var mndFileds=new Array('First Name','Last Name','Email','Description');
+ 	  var fldLangVal=new Array('First Name','Last Name','Email','Message');
+		var name='';
+		var email='';
+
+ 	  function checkMandatory() {
+		for(i=0;i<mndFileds.length;i++) {
+		  var fieldObj=document.forms['WebToLeads2553120000000120148'][mndFileds[i]];
+		  if(fieldObj) {
+			if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+			 if(fieldObj.type =='file')
+				{ 
+				 alert('Please select a file to upload.'); 
+				 fieldObj.focus(); 
+				 return false;
+				} 
+			alert(fldLangVal[i] +' cannot be empty.'); 
+   	   	  	  fieldObj.focus();
+   	   	  	  return false;
+			}  else if(fieldObj.nodeName=='SELECT') {
+  	   	   	 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+				alert(fldLangVal[i] +' cannot be none.'); 
+				fieldObj.focus();
+				return false;
+			   }
+			} else if(fieldObj.type =='checkbox'){
+ 	 	 	 if(fieldObj.checked == false){
+				alert('Please accept  '+fldLangVal[i]);
+				fieldObj.focus();
+				return false;
+			   } 
+			 } 
+			 try {
+			     if(fieldObj.name == 'Last Name') {
+				name = fieldObj.value;
+ 	 	 	    }
+			} catch (e) {}
+		    }
+		}
+	     }
+	   // -->
+</script>
+	</form>
+</div>
 	</body>
 </html>
