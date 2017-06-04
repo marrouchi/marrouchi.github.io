@@ -1,0 +1,275 @@
+{
+  "basics": {
+    "name": "Mohamed Marrouchi",
+    "label": "Software Engineer, Web Expert & FOSS Advocate",
+    "picture": "http://marrouchi.com/images/marrouchi.jpg",
+    "email": "marrouchi.mohamed@gmail.com",
+    "phone": "",
+    "website": "http://marrouchi.com",
+    "summary": "Full stack software engineer with special expertise in web development, e-commerce, APIs and web services. Comfortable implementing great user experiences, managing server side scalability and concurrency, designing database schemas and batch processing jobs, and deploying and admining servers. Experienced in building sophisticated distributed systems using REST web APIs. Product focused and deeply passionate about solving interesting problems.  As a FOSS advocate, i actively contribute to open source projects (see my GitHub profile) because it is a way to develop great software that benefits both the contributor and the community.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "TN",
+      "region": "Tunis"
+    },
+    "profiles": [
+      {
+        "network": "Facebook",
+        "username": "medmarrouchi",
+        "url": "https://www.facebook.com/medmarrouchi"
+      },
+      {
+        "network": "Twitter",
+        "username": "MedMarrouchi",
+        "url": "https://twitter.com/MedMarrouchi"
+      },
+      {
+        "network": "Linkedin",
+        "username": "",
+        "url": "https://www.linkedin.com/in/mohamed-marrouchi-294a68a8/"
+      },
+      {
+        "network": "Github",
+        "username": "marrouchi",
+        "url": "https://github.com/marrouchi"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Linagora",
+      "position": "Team Leader",
+      "website": "",
+      "startDate": "2017-03-20",
+      "endDate": "2017-05-15",
+      "summary": "",
+      "highlights": [
+        "Provide any training that team members need",
+        "Communicate clear instructions to team members",
+        "Manage the flow of day-to-day operations",
+        "Develop and enhance custom Drupal module code, adhering to community and company best practices."
+      ]
+    },
+    {
+      "company": "Aurone",
+      "position": "CTO & Production Manager",
+      "website": "",
+      "startDate": "2014-05-01",
+      "endDate": "2017-03-20",
+      "summary": "Expertly managed the entire life-cycle of website development projects:",
+      "highlights": [
+        "Provided expert advice to project mangers to enhance competencies in managing assigned projects and to maximize the performance level.",
+        "Directed recruitment/technical/training staff initiatives to maximize productivity in a fun working environment.",
+        "Increased employee retention by creating a positive work environment.",
+        "Initiating and managing an incentive performance plan which motivated staff and resulted in increased profits and boost customer satisfaction by an average of 80%.",
+        "Improved quality of technical delivery through development of best practice and standards guidelines."
+      ]
+    },
+    {
+      "company": "Aurone",
+      "position": "Project Manager & Senior Web Developer",
+      "website": "",
+      "startDate": "2012-12-01",
+      "endDate": "2014-05-01",
+      "summary": "I have managed many web projects with proven traffic and for various profile clients, always going above and beyond the call of duty:",
+      "highlights": [
+        "Estimated project budgets and resolved discrepancies.",
+        "Gathering and analyzing project requirements.",
+        "Oversaw project team members and client deliverables.",
+        "Provided exceptional clients relations support with clear communication and timely projects status updates.",
+        "Set up, participated and lead frequent client conference calls and project team meetings.",
+        "Coordinated User Acceptance Testing (UAT) and assisted in testing efforts.",
+        "Managed quality assurance and proofing with a clear understanding of time management.",
+        "Established a website building process from inception to launch.",
+        "Created a project management software that increased transparency on projects and led to an organized and efficient work.",
+        "Helped team members in addressing technical choices and issues.",
+        "Educated team members about website development best practices."
+      ]
+    },
+    {
+      "company": "Aurone",
+      "position": "Web Developer",
+      "website": "",
+      "startDate": "2010-09-01",
+      "endDate": "2012-12-01",
+      "summary": "I was involved in building and maintaining many websites including corporate websites, e-commerce or Intranet / Extranet based upon popular open source solutions (CMS & Frameworks):",
+      "highlights": [
+        "Developed CMS custom modules based on the clients specific needs.",
+        "Provided technical support for website under maintenance contract.",
+        "Identifying and correcting software bugs and deficiencies.",
+        "Managed hosting environments & deployments (LAMP).",
+        "Setting up payment methods for e-commerce websites.",
+        "Participated in discussions with clients to clarify what they want.",
+        "Provided guidance to other team members on web development issues.",
+        "Worked on multiple projects simultaneously to a high standard.",
+        "Worked under pressure and to tight deadlines."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Freeways Association",
+      "position": "President",
+      "website": "http://freeways.tn/",
+      "startDate": "2016-09-01",
+      "endDate": "Now",
+      "summary": "Tunisian association for promoting FOSS (Free/OpenSource Software)",
+      "highlights": []
+    },
+    {
+      "organization": "OpenStreetMap",
+      "position": "Contributor",
+      "website": "https://www.openstreetmap.org/user/marrouchi",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Active member of OSM Tunisia Community.",
+      "highlights": []
+    },
+    {
+      "organization": "Drupal",
+      "position": "Contributor",
+      "website": "https://www.drupal.org/u/mohamedmarrouchi",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "PrestaShop ",
+      "position": "Tunisia Ambassador",
+      "website": "https://ambassadors.prestashop.com/ambassador/mohamed-marrouchi",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Active member of PrestaShop Tunisian Community.",
+      "highlights": []
+    },
+    {
+      "organization": "Joomla!",
+      "position": "Bug Squad Team Contributor",
+      "website": "https://volunteers.joomla.org/joomlers/1868-mohamed-marrouchi",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "High Institute Of Computer Sciences, Tunis El Manar University",
+      "area": "Information System & Software Engineering",
+      "studyType": "",
+      "startDate": "2008",
+      "endDate": "2011",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "High Institute Of Computer Sciences, Tunis El Manar University",
+      "area": "Information Systems & Communication Technologies",
+      "studyType": "",
+      "startDate": "2005",
+      "endDate": "2008",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Kelibia High School",
+      "area": "Bachelors, Technologies Science",
+      "studyType": "",
+      "startDate": "2000",
+      "endDate": "2005",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "PHP",
+        "Nodejs",
+        "MySQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "CMS & E-Commerce",
+      "level": "",
+      "keywords": [
+        "Drupal",
+        "PrestaShop",
+        "Joomla!",
+        "Magento",
+        "Wordpress"
+      ]
+    },
+    {
+      "name": "API & WebServices",
+      "level": "",
+      "keywords": [
+        "SOAP",
+        "REST",
+        "JSON",
+        "XML"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "level": "",
+      "keywords": [
+        "CakePHP",
+        "Symfony",
+        "SailsJs",
+        "Angular",
+        "VueJs",
+        "Cordova/Ionic"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "IELTS Certified"
+    },
+    {
+      "language": "French",
+      "fluency": "TEF Certified"
+    },
+    {
+      "language": "Arabic",
+      "fluency": "Mother Tongue"
+    }
+  ],
+  "interests": [
+    {
+      "name": "IT & Web technlogies",
+      "keywords": []
+    },
+    {
+      "name": "OpenSource & Free Software",
+      "keywords": []
+    },
+    {
+      "name": "Management",
+      "keywords": []
+    },
+    {
+      "name": "Music",
+      "keywords": []
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": "Available on request"
+    }
+  ]
+}
