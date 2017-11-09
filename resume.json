@@ -39,6 +39,22 @@
   },
   "work": [
     {
+      "company": "Freelance",
+      "position": "Web Consultant",
+      "website": "",
+      "startDate": "2017-05-15",
+      "endDate": "Now",
+      "summary": "",
+      "highlights": [
+        "Advise on changes in technology & computer network issues.",
+        "Maintain and secure exising projects.",
+        "Support and train individuals, small businesses and organizations remotely and in-person to help meet their web and business goals.",
+        "Consistently adhered and adapted to client changes and requests in timely manner.",
+        "Launched mobile friendly websites / single-page applications.",
+        "Performs testing and auditing of web-based systems for large public and private sector clients."
+      ]
+    },
+    {
       "company": "Linagora",
       "position": "Team Leader",
       "website": "",
